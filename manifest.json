@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Sudoku array exporter",
+  "version": "1.0",
+
+  "description": "Exports sudokuweb.org sudoku to array that you can use in programming",
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.sudokuweb.org/*"],
+      "js": ["sudoku_export.js"]
+    }
+  ]
+}
