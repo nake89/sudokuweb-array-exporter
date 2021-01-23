@@ -1,5 +1,3 @@
-document.body.style.border = "5px solid red";
-// console.log(document.getElementById("right"));
 
 function getNumber(id) {
   let content = document.getElementById(id);
